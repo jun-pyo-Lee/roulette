@@ -52,9 +52,9 @@
 <body>
 	<form action="rouletteView.do" method="POST">
 		<label>수행횟수</label>
-		<input type="text" name="tryCount" id="tryCount" placeholder="1~200,000"><br>
+		<input type="text" name="tryCount" id="tryCount" placeholder="1~200,000 회"><br>
 		<label>당첨확률</label>
-		<input type="text" name="winPercent" id="winPercent" placeholder="0~100"><br>
+		<input type="text" name="winPercent" id="winPercent" placeholder="0~100%"><br>
 		<input type="button" value="확인" onClick="checkform(this.form)">
 		<input type="button" value="홈으로" onClick="location.href='home.do'">
 	</form>

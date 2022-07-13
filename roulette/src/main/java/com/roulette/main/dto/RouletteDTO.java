@@ -1,4 +1,4 @@
-package com.roulette.dto;
+package com.roulette.main.dto;
 
 public class RouletteDTO {
 

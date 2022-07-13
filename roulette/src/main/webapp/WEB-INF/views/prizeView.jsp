@@ -11,8 +11,8 @@
 <div>
 <label>당첨 결과</label>
 	<div style="max-width:100px; max-height:300px; text-align:center; background-color: pink; overflow:auto; border: 3px solid black">
-		<c:forEach items="${map.posList}" var="posList">
-			  ${posList} <br>
+		<c:forEach items="${map.prizeList}" var="prizeList">
+			  ${prizeList} <br>
 		</c:forEach>
 	</div>
 	<div>

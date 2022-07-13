@@ -37,7 +37,7 @@
 	<form action="prizeView.do" method="POST">
 		<div>
 			<label>수행횟수</label>
-			<input type="text" name="tryCount" id="tryCount" placeholder="1~200,000"><br>
+			<input type="text" name="tryCount" id="tryCount" placeholder="1~200,000회"><br>
 		</div>
 		<input type="button" onClick="checkform(this.form)" value="전송">
 		<input type="button" value="홈으로" onClick="location.href='home.do'">
